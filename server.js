@@ -36,7 +36,7 @@ app.post("/api/notes", (req, res) => {
     text: req.body.text,
     id: uuidv4(),
   };
-
+  // placed the added field
   notesData.push(newNotes);
   //console.log(notesData);
   //This writes the file to the database, and stringfy
@@ -49,8 +49,17 @@ app.post("/api/notes", (req, res) => {
 });
 
 //for delele functionality
+// get the id by clicking on the delete button
 // req.params.id
 // look up javascript filter
+// app.post("/api/notes", (req, res) => {
+//   //console.log(req.body);
+//   // create newNotes OBJ adding in uuid4
+//   const deleteNotes = {
+//    id: req.body.id,
+//    text: req.body.text,
+//    id: uuidv4(),}
+//   })
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
