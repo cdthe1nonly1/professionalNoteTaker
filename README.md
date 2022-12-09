@@ -1,12 +1,14 @@
 <!DOCTYPE md>
+
 # Professional Note Taker
 
 ## Description:
+
 Application designed to take notes and to save them.
 
-
 ## Technologies:
-javascript, HTML, express 
+
+javascript, HTML, express
 
 ## Links:
 
@@ -15,7 +17,7 @@ link to Professional Note Taker webpage: http://localhost:3001
 
 ## Images:
 
-Image Link ./public/assets/images/Screenshot.png
+![Image Link](./public/assets/images/Screenshot.png)
 
 ## Usage:
 
